@@ -1,0 +1,1 @@
+every documentation work in campus learning process,separated according to the theme by folder and according to the workshop in branches, each point of each workshop is in a commit (all according to 'conventional commits').
