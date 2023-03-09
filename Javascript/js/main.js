@@ -1,25 +1,20 @@
-DefinicionOperadoresComparacion="Un operador de comparación lleva a cabo una comparación entre sus operandos y devuelve un valor lógico según el resultado de la comparación si fue verdadera (true) o falsa (false). Los operandos pueden ser valores numéricos, de cadena, lógicos u objetos. Casi siempre si los dos operandos no son del mismo tipo, JavaScript intenta dinámicamente convertirlos a un tipo apropiado para la comparación"
-//Dados los siguientes números:
-const primerOperando = 13
-const segundOperando = "13"
-const tercerOperando = 31
-const cuartOperando = 13
-// ==Devuelve true si los valores de los operandos son iguales y false si no lo son.
-console.log(primerOperando==tercerOperando);
-console.log(primerOperando==segundOperando);
-console.log(primerOperando==cuartOperando);
+DefinicionOperadoreslogicos="Los operadores lógicos se utilizan normalmente con valores booleanos (lógicos); cuando lo son, devuelve un valor booleano. Sin embargo, los operadores && y ||en realidad devuelven el valor de uno de los operandos especificados, por lo que si estos operadores se utilizan con valores no booleanos, pueden devolver un valor no booleano. Los operadores lógicos se describen en la siguiente tabla."
 
-//Devuelve true si los valores y el tipo de dato de los operandos son iguales y false si no lo son.
-console.log(primerOperando===segundOperando)
-console.log(primerOperando==cuartOperando)
-// > < Devuelven true o false segun la operacion
-console.log(primerOperando>tercerOperando)
-console.log(primerOperando<tercerOperando)
-console.log(primerOperando<cuartOperando)
-console.log(primerOperando<=cuartOperando)
+And = "&&"
+//cuando por ejemplo queremos colocar más de un condicional en un if con este operador se deben cumplir ambas (thefirst AND the second) condiciones para que arroge true y se ejecute, basta con que uno solo de sus valores no sea verdadero para que arroje false.
+console.log(7<8&&6<7)
+console.log(7>8&&6<7)
+console.log(7<8&&6>7)
+console.log(7>8&&6>7)
 
-// ! vuelve false en true y true en false, es decir devuelve el lo opuesto a lo que es añadido. Tambien se puede usar para que en una igualdad si son iguales arroje false y si no lo son, en lugar de arrojar false de true, covirtiendose así en un operador de 'desigualdad'
-console.log(primerOperando!=cuartOperando)
-console.log(primerOperando==segundOperando);
-console.log(primerOperando!==segundOperando);
-// ! == es el contrario de === y no de ==, que es solo es !=.
+Or= "||"
+//a diferencia del anterior con que uno solo de sus valores sea verdadero(thefirst OR thesecond), arroja true.
+console.log(7<8||6<7)
+console.log(7>8||6<7)
+console.log(7<8||6>7)
+console.log(7>8||6>7)
+
+Not="!"
+//como ya explique ! vuelve false en true y true en false, es decir devuelve el lo opuesto a lo que es añadido.
+console.log(!false)
+console.log(!3==3)
