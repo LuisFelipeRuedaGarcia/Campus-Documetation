@@ -1,1 +1,1 @@
-readme javascript folder.
+JavaScript most useful strings methods.
