@@ -1,3 +1,4 @@
-//fifth method
-replaceMethod = "El método replace() devuelve una nueva cadena con algunas o todas las coincidencias de un patrón. Como primer argumento, se le pasa la coincidencia que se busca y se quiere reemplazar y como segundo argumento, se le pasa la cadena por la cual se reemplazará la coincidencia. Si el patrón es una cadena, sólo la primera coincidencia será reemplazada."
-console.log(replaceMethod.replace('será reemplazada','se tomará en cuenta'))
+//sixth method
+slicemethod = "Extrae una sección de una cadena y devuelve una nueva cadena sin modificar la original."
+console.log(slicemethod.slice(19))
+console.log(slicemethod)
