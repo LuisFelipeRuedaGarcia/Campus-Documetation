@@ -1,3 +1,3 @@
-//first method
-lengthMethod = "Indica el número de unidades o caraceteres en la cadena"
-console.log(lengthMethod.length)
+//second method
+includesmethod = "Devuelven true o false la cadena comienza, termina o contiene una subcadena especificada."
+console.log(includesmethod.includes('vue'))
