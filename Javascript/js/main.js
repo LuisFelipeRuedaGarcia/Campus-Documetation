@@ -1,3 +1,3 @@
-//thirteenth method
-splitmethod="Separa el texto en varias partes, usando  text como separador."
-console.log(splitmethod.split(" ", 6))
+//fourteenth method
+searchMethod="Busca un patrón que encaje con regexp y devuelve la  posición encontrada."
+console.log(searchMethod.search("que"))
