@@ -1,3 +1,3 @@
-//fourth method
-endsWithMethod = "Devuelve true o false si la cadena comienza o no con una subcadena especificada."
-console.log(endsWithMethod.endsWith('especificada'))
+//fifth method
+replaceMethod = "El método replace() devuelve una nueva cadena con algunas o todas las coincidencias de un patrón. Como primer argumento, se le pasa la coincidencia que se busca y se quiere reemplazar y como segundo argumento, se le pasa la cadena por la cual se reemplazará la coincidencia. Si el patrón es una cadena, sólo la primera coincidencia será reemplazada."
+console.log(replaceMethod.replace('será reemplazada','se tomará en cuenta'))
