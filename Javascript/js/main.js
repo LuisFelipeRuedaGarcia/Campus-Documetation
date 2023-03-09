@@ -1,3 +1,3 @@
-//eighth method
-repeatMethod = "El método repeat() construye y devuelve una nueva cadena que contiene el número especificado de copias de la cadena en la cual fue llamada, concatenados."
-console.log(repeatMethod.repeat(12))
+//Ninth method
+charAtMethod="index, char at position,Devuelve el carácter de la posición '12'. Similar al operador []."
+console.log(charAtMethod.charAt(12))
