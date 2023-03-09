@@ -1,3 +1,3 @@
-//second method
-includesmethod = "Devuelven true o false la cadena comienza, termina o contiene una subcadena especificada."
-console.log(includesmethod.includes('vue'))
+//third method
+startsWithMethod = "Devuelve true o false si la cadena comienza o no con una subcadena especificada."
+console.log(startsWithMethod.startsWith('Dev'))
